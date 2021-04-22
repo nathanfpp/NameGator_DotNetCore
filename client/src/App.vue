@@ -4,7 +4,7 @@
       <div class="text-center">
         <h1>NameGator</h1>
         <br />
-        <h6 class="text-secondary">Gerador de nomes aleatórios usando Vue.JS, GraphQL e Node</h6>
+        <h6 class="text-secondary">Gerador de nomes aleatórios usando Vue.JS, Axios, .Net Core e Entity Framework</h6>
       </div>
     </div>
     <div id="main">

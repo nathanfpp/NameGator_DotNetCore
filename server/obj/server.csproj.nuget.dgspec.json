@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Nathan Frois\\Documents\\Visual_Studio_Code\\full_stack_vue_dot_net\\server\\server.csproj": {}
+    "C:\\Users\\Nathan Frois\\Documents\\Visual_Studio_Code\\NameGator_DotNetCore\\server\\server.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Nathan Frois\\Documents\\Visual_Studio_Code\\full_stack_vue_dot_net\\server\\server.csproj": {
+    "C:\\Users\\Nathan Frois\\Documents\\Visual_Studio_Code\\NameGator_DotNetCore\\server\\server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nathan Frois\\Documents\\Visual_Studio_Code\\full_stack_vue_dot_net\\server\\server.csproj",
+        "projectUniqueName": "C:\\Users\\Nathan Frois\\Documents\\Visual_Studio_Code\\NameGator_DotNetCore\\server\\server.csproj",
         "projectName": "server",
-        "projectPath": "C:\\Users\\Nathan Frois\\Documents\\Visual_Studio_Code\\full_stack_vue_dot_net\\server\\server.csproj",
+        "projectPath": "C:\\Users\\Nathan Frois\\Documents\\Visual_Studio_Code\\NameGator_DotNetCore\\server\\server.csproj",
         "packagesPath": "C:\\Users\\Nathan Frois\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nathan Frois\\Documents\\Visual_Studio_Code\\full_stack_vue_dot_net\\server\\obj\\",
+        "outputPath": "C:\\Users\\Nathan Frois\\Documents\\Visual_Studio_Code\\NameGator_DotNetCore\\server\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Nathan Frois\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -27,6 +27,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -38,6 +39,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.AspNetCore.Mvc": {
               "target": "Package",
@@ -70,7 +72,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

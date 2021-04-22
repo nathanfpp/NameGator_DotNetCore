@@ -53,16 +53,73 @@ export default {
 
   methods : {
     addPrefix : function(e){
-      this.prefixes.push(e);
+
+      var dado = {
+
+        "ID":0,
+        "sId":e,
+        "sTipo":"prefixo"
+      }
+
+      axios({
+          url : "http://localhost:5000/v1/Item/Add",
+          method: 'post',
+          data: dado
+        }).then(() => {
+          this.prefixes.push(e);
+      });
     },
+
     addSufix : function(e){
-      this.sufixes.push(e);
-    },
+      var dado = {
+
+        "ID":0,
+        "sId":e,
+        "sTipo":"sufixo"
+      }
+
+      axios({
+          url : "http://localhost:5000/v1/Item/Add",
+          method: 'post',
+          data: dado
+        }).then(() => {
+          this.sufixes.push(e);
+      });    
+      },
+    
     removePrefix : function(e){
-      this.prefixes.splice(this.prefixes.indexOf(e),1);
+
+      var dado = {
+
+        "ID":0,
+        "sId":e,
+        "sTipo":"prefixo"
+      }
+
+      axios({
+          url : "http://localhost:5000/v1/Item/Delete",
+          method: 'delete',
+          data: dado
+        }).then(() => {
+        this.prefixes.splice(this.prefixes.indexOf(e),1);
+      });    
     },
+    
     removeSufix : function(e){
-      this.sufixes.splice(this.sufixes.indexOf(e),1);
+         var dado = {
+
+        "ID":0,
+        "sId":e,
+        "sTipo":"sufixo"
+      }
+
+      axios({
+          url : "http://localhost:5000/v1/Item/Delete",
+          method: 'delete',
+          data: dado
+        }).then(() => {
+        this.sufixes.splice(this.sufixes.indexOf(e),1);
+      });
     }
   },
  /* created(){ // Quando os componentes já foram criados, posso usar para pesquisar no backend. no beforeCreated() o componente não existe ainda.

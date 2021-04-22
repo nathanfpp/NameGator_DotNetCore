@@ -12,14 +12,15 @@ namespace  Model
             if(oContext.Itens.Any())
                 return;
 
-                List<Item> lstItem = new List<Item>(){
-                    new Item("Air",     "prefixo"),
-                    new Item("Jet",     "prefixo"),
-                    new Item("Flight",  "prefixo"),
-                    new Item("Hub",     "sufixo"),
-                    new Item("Station", "sufixo"),
-                    new Item("Mars",    "sufixo"),
-                };
+            List<Item> lstItem = new List<Item>()
+            {
+                new Item().FactoryItem("Air",     "prefixo"),
+                new Item().FactoryItem("Jet",     "prefixo"),
+                new Item().FactoryItem("Flight",  "prefixo"),
+                new Item().FactoryItem("Hub",     "sufixo"),
+                new Item().FactoryItem("Station", "sufixo"),
+                new Item().FactoryItem("Mars",    "sufixo"),
+            };
             
             //insert
             oContext.Itens.AddRange(lstItem);

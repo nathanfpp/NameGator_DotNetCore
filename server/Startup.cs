@@ -27,6 +27,8 @@ namespace server
                 app.UseDeveloperExceptionPage();
             }
 
+            app.UseRouting();
+
             app.UseCors(config=> {
                 config.AllowAnyHeader(); 
                 config.AllowAnyMethod(); 
